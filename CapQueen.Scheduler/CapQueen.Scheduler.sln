@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapQueen.Scheduler", "CapQueen.Scheduler\CapQueen.Scheduler.csproj", "{16F2D7AD-3FDE-40AA-9373-17CD774D4C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapQueen.Scheduler.Service", "CapQueen.Scheduler.Service\CapQueen.Scheduler.Service.csproj", "{B9192630-9C9F-43F9-9AA7-D789C471971E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapQueen.Scheduler.Web", "CapQueen.Scheduler.Web\CapQueen.Scheduler.Web.csproj", "{2EB77D58-33B3-4338-BBB9-EB37753510B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Host", "1.Host", "{E18427F0-D451-4005-A1A7-2D774C946F46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Jobs", "2.Jobs", "{4177BABC-ADD2-4582-80B4-7F440799B334}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Monitor", "3.Monitor", "{9869902E-896C-4CC9-BBD1-4D50311E2A86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F2D7AD-3FDE-40AA-9373-17CD774D4C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F2D7AD-3FDE-40AA-9373-17CD774D4C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F2D7AD-3FDE-40AA-9373-17CD774D4C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F2D7AD-3FDE-40AA-9373-17CD774D4C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9192630-9C9F-43F9-9AA7-D789C471971E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9192630-9C9F-43F9-9AA7-D789C471971E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9192630-9C9F-43F9-9AA7-D789C471971E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9192630-9C9F-43F9-9AA7-D789C471971E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB77D58-33B3-4338-BBB9-EB37753510B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB77D58-33B3-4338-BBB9-EB37753510B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB77D58-33B3-4338-BBB9-EB37753510B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB77D58-33B3-4338-BBB9-EB37753510B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16F2D7AD-3FDE-40AA-9373-17CD774D4C61} = {4177BABC-ADD2-4582-80B4-7F440799B334}
+		{B9192630-9C9F-43F9-9AA7-D789C471971E} = {E18427F0-D451-4005-A1A7-2D774C946F46}
+		{2EB77D58-33B3-4338-BBB9-EB37753510B8} = {9869902E-896C-4CC9-BBD1-4D50311E2A86}
+	EndGlobalSection
+EndGlobal
